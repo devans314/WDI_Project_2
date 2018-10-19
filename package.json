@@ -1,0 +1,28 @@
+{
+  "name": "wdi_project_2",
+  "version": "1.0.0",
+  "description": "MVP: Users can create accounts and log in Users can create systems with certain properties Users and systems will be stored in a database Planets will be displayed to users on a board created via canvas Users will be able to select systems and view their associated information",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devans314/WDI_Project_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devans314/WDI_Project_2/issues"
+  },
+  "homepage": "https://github.com/devans314/WDI_Project_2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.4",
+    "morgan": "^1.9.1"
+  }
+}
